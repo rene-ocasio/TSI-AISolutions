@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>msnfp_FundraisingandEngagement</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>f3b1a61a-6fcd-e811-a960-000d3a37870e</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="account" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000000666000}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001200}" />
+    <AppModuleComponent type="26" id="{731c9fd0-d6a4-ea11-a812-000d3a0c94a6}" />
+    <AppModuleComponent type="26" id="{a9af0ab8-861d-4cfa-92a5-c6281fed7fab}" />
+    <AppModuleComponent type="26" id="{92ee93bf-45a4-ea11-a812-000d3a0c94a6}" />
+    <AppModuleComponent type="26" id="{cfa1bd5a-43a4-ea11-a812-000d3a0c94a6}" />
+    <AppModuleComponent type="26" id="{a3b8bd78-45a4-ea11-a812-000d3a0c94a6}" />
+    <AppModuleComponent type="26" id="{dd1a3a41-dda4-ea11-a812-000d3a0c94a6}" />
+    <AppModuleComponent type="26" id="{0aef29c5-4ca4-ea11-a812-000d3a0c94a6}" />
+    <AppModuleComponent type="26" id="{e755c91b-41a4-ea11-a812-000d3a0c94a6}" />
+    <AppModuleComponent type="26" id="{c7d4bcd1-dea4-ea11-a812-000d3a0c94a6}" />
+    <AppModuleComponent type="26" id="{3bc3f751-b0b7-ea11-a812-000d3a0c94a6}" />
+    <AppModuleComponent type="26" id="{c4ad4692-d9a4-ea11-a812-000d3a0c94a6}" />
+    <AppModuleComponent type="26" id="{f80a040f-49a4-ea11-a812-000d3a0c94a6}" />
+    <AppModuleComponent type="26" id="{6491edda-d4a4-ea11-a812-000d3a0c94a6}" />
+    <AppModuleComponent type="26" id="{c1ed0c65-dfa4-ea11-a812-000d3a0c94a6}" />
+    <AppModuleComponent type="26" id="{24e7af6c-5fdc-e811-a962-000d3a3780dd}" />
+    <AppModuleComponent type="26" id="{b4045ebc-cbd3-e811-a960-000d3a37870e}" />
+    <AppModuleComponent type="26" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
+    <AppModuleComponent type="26" id="{399d82d4-4dd7-ea11-a813-000d3a0c94a6}" />
+    <AppModuleComponent type="26" id="{a8ce8265-ac3e-e911-a826-000d3a3b73ac}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001001}" />
+    <AppModuleComponent type="26" id="{d234426e-1f37-4944-9255-50e19b541c4c}" />
+    <AppModuleComponent type="60" id="{1738bfe6-7a21-4d68-b90f-179a693ecb9c}" />
+    <AppModuleComponent type="60" id="{7a0ea9e9-fcb8-45ca-b24f-b8c2b6980eb5}" />
+    <AppModuleComponent type="60" id="{179d553f-4804-4452-aa11-7212d2d4dc14}" />
+    <AppModuleComponent type="1" schemaName="activitypointer" />
+    <AppModuleComponent type="1" schemaName="msnfp_appeal" />
+    <AppModuleComponent type="1" schemaName="msnfp_bankrun" />
+    <AppModuleComponent type="1" schemaName="msnfp_budget" />
+    <AppModuleComponent type="1" schemaName="campaign" />
+    <AppModuleComponent type="60" id="{e0cae4d6-3701-4623-815d-1ef6a8adf710}" />
+    <AppModuleComponent type="1" schemaName="incident" />
+    <AppModuleComponent type="1" schemaName="msnfp_configuration" />
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001004}" />
+    <AppModuleComponent type="26" id="{73bc2d9b-4e0e-424c-8839-ed59d6817e3a}" />
+    <AppModuleComponent type="26" id="{cf955fa0-92d7-e811-a960-000d3a378f36}" />
+    <AppModuleComponent type="26" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001210}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000000666400}" />
+    <AppModuleComponent type="26" id="{a2d479c5-53e3-4c69-addd-802327e67a0d}" />
+    <AppModuleComponent type="26" id="{3add2ec0-e8a4-ea11-a812-000d3a0c94a6}" />
+    <AppModuleComponent type="26" id="{82480a52-eaa4-ea11-a812-000d3a0c94a6}" />
+    <AppModuleComponent type="26" id="{c2097e92-e7a4-ea11-a812-000d3a0c94a6}" />
+    <AppModuleComponent type="26" id="{6e67976d-eba4-ea11-a812-000d3a0c94a6}" />
+    <AppModuleComponent type="26" id="{7c2151e4-b0b7-ea11-a812-000d3a0c94a6}" />
+    <AppModuleComponent type="26" id="{303a3f54-eda4-ea11-a812-000d3a0c94a6}" />
+    <AppModuleComponent type="26" id="{2dacce7b-efa4-ea11-a812-000d3a0c94a6}" />
+    <AppModuleComponent type="26" id="{ce53caf7-eaa4-ea11-a812-000d3a0c94a6}" />
+    <AppModuleComponent type="26" id="{ad038ec2-eca4-ea11-a812-000d3a0c94a6}" />
+    <AppModuleComponent type="26" id="{1d22f965-d744-e911-a838-000d3a3b7224}" />
+    <AppModuleComponent type="26" id="{03439321-b043-ea11-a812-000d3af3bf00}" />
+    <AppModuleComponent type="26" id="{7355367e-953e-e911-a826-000d3a3b73ac}" />
+    <AppModuleComponent type="26" id="{2e2a4d19-94d2-ea11-a813-000d3a0c94a6}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001033}" />
+    <AppModuleComponent type="60" id="{67cc8726-db9b-445e-88ee-171fe5388f87}" />
+    <AppModuleComponent type="1" schemaName="msnfp_response" />
+    <AppModuleComponent type="1" schemaName="msnfp_designatedcredit" />
+    <AppModuleComponent type="60" id="{cc20d728-ae61-47d2-9a48-59fde4f99ea4}" />
+    <AppModuleComponent type="1" schemaName="msnfp_designation" />
+    <AppModuleComponent type="60" id="{1e599521-0425-4911-a594-319a15717589}" />
+    <AppModuleComponent type="1" schemaName="msnfp_designationplan" />
+    <AppModuleComponent type="60" id="{4fdc3e8f-ef5a-41f0-bca7-16e4433522b2}" />
+    <AppModuleComponent type="1" schemaName="msnfp_donationimport" />
+    <AppModuleComponent type="1" schemaName="msnfp_donorcommitment" />
+    <AppModuleComponent type="60" id="{1421ca81-de38-408c-be76-fc4b0c8ca34b}" />
+    <AppModuleComponent type="60" id="{ddf82332-8212-47b4-83a7-f98b4db7d19d}" />
+    <AppModuleComponent type="1" schemaName="msnfp_event" />
+    <AppModuleComponent type="1" schemaName="msnfp_eventsponsor" />
+    <AppModuleComponent type="1" schemaName="msnfp_eventtables" />
+    <AppModuleComponent type="1" schemaName="msnfp_report" />
+    <AppModuleComponent type="60" id="{aa5d1aee-ee80-446b-8e6e-5f08109ed05c}" />
+    <AppModuleComponent type="1" schemaName="msnfp_getstarted" />
+    <AppModuleComponent type="26" id="{00c4071a-95b5-ec11-b3fe-0022480b1896}" />
+    <AppModuleComponent type="1" schemaName="msnfp_giftaiddeclaration" />
+    <AppModuleComponent type="1" schemaName="msnfp_giftaidreturn" />
+    <AppModuleComponent type="1" schemaName="msnfp_giftbatch" />
+    <AppModuleComponent type="1" schemaName="msnfp_givinglevel" />
+    <AppModuleComponent type="1" schemaName="goal" />
+    <AppModuleComponent type="1" schemaName="metric" />
+    <AppModuleComponent type="1" schemaName="msdyn_iotalert" />
+    <AppModuleComponent type="1" schemaName="list" />
+    <AppModuleComponent type="60" id="{6e77626b-e693-44f0-a1c7-359b1a7a9a4c}" />
+    <AppModuleComponent type="1" schemaName="msnfp_membership" />
+    <AppModuleComponent type="60" id="{01d7135d-ba58-433d-8f5e-6b681ad4d450}" />
+    <AppModuleComponent type="1" schemaName="msnfp_membershipcategory" />
+    <AppModuleComponent type="60" id="{904bbe89-abe5-42c2-8591-fe168838ba9c}" />
+    <AppModuleComponent type="1" schemaName="msnfp_membershipgroup" />
+    <AppModuleComponent type="1" schemaName="msnfp_membershiporder" />
+    <AppModuleComponent type="1" schemaName="msnfp_objective" />
+    <AppModuleComponent type="60" id="{052781ed-f437-4f93-a659-26f062e194fd}" />
+    <AppModuleComponent type="1" schemaName="opportunity" />
+    <AppModuleComponent type="60" id="{21708dfd-cee1-4f94-8398-5c48ed0abce9}" />
+    <AppModuleComponent type="60" id="{e3c588ee-8e11-49da-a5fe-3800f3f683de}" />
+    <AppModuleComponent type="60" id="{24b5ce86-1811-44c3-b1ad-90f7ea02d2d7}" />
+    <AppModuleComponent type="1" schemaName="msnfp_package" />
+    <AppModuleComponent type="26" id="{a6d884f3-0d1d-4ed4-b299-8f7602080a89}" />
+    <AppModuleComponent type="26" id="{733b246f-434f-470f-9e41-08923243dfc1}" />
+    <AppModuleComponent type="26" id="{c26fe23c-b9da-42d3-9318-fdd39712b417}" />
+    <AppModuleComponent type="26" id="{16e62794-0a7a-48c9-9fd2-cb2ada6777e6}" />
+    <AppModuleComponent type="26" id="{1884565f-16e1-4806-a42c-71fbd3aef083}" />
+    <AppModuleComponent type="60" id="{f03e5b15-db28-4459-82ee-972841757181}" />
+    <AppModuleComponent type="60" id="{d7810ee1-e69e-450a-96ef-ee9715bb7a50}" />
+    <AppModuleComponent type="1" schemaName="msnfp_paymentmethod" />
+    <AppModuleComponent type="60" id="{eb2f09f3-5429-4a31-8e59-3d5a6a2c9008}" />
+    <AppModuleComponent type="1" schemaName="msnfp_paymentprocessor" />
+    <AppModuleComponent type="60" id="{dfb9f937-2acb-463c-ae61-827d82928179}" />
+    <AppModuleComponent type="1" schemaName="msnfp_paymentschedule" />
+    <AppModuleComponent type="60" id="{14059d56-35aa-4380-8b13-7dc0af57e955}" />
+    <AppModuleComponent type="60" id="{72360de7-53d9-4e03-ac39-7c5da79fe113}" />
+    <AppModuleComponent type="1" schemaName="msnfp_pledgematch" />
+    <AppModuleComponent type="1" schemaName="msnfp_preferencecategory" />
+    <AppModuleComponent type="1" schemaName="msnfp_receipt" />
+    <AppModuleComponent type="1" schemaName="msnfp_receiptlog" />
+    <AppModuleComponent type="1" schemaName="msnfp_receiptstack" />
+    <AppModuleComponent type="1" schemaName="msnfp_refund" />
+    <AppModuleComponent type="1" schemaName="msnfp_registration" />
+    <AppModuleComponent type="1" schemaName="msnfp_eventpackage" />
+    <AppModuleComponent type="1" schemaName="report" />
+    <AppModuleComponent type="1" schemaName="goalrollupquery" />
+    <AppModuleComponent type="1" schemaName="msnfp_transaction" />
+    <AppModuleComponent type="60" id="{9d57debe-68e7-4d29-9d35-6dec55557ae7}" />
+    <AppModuleComponent type="60" id="{867b7a5c-380f-46dd-8162-693e19aa5e03}" />
+    <AppModuleComponent type="1" schemaName="msnfp_tributeormemory" />
+    <AppModuleComponent type="60" id="{2c2bd880-42e5-ea11-a817-000d3a0c94a6}" />
+    <AppModuleComponent type="60" id="{8f77a88d-42e5-ea11-a817-000d3a0c94a6}" />
+    <AppModuleComponent type="60" id="{75d41801-c0e7-ea11-a817-000d3a303484}" />
+    <AppModuleComponent type="62" schemaName="msnfp_FundraisingandEngagement" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{cd933113-90f6-e911-a813-000d3a0c8ff0}" />
+    <Role id="{cf385f4e-69fb-ea11-a815-000d3a5accc0}" />
+    <Role id="{47e36843-84fb-ea11-a815-000d3a5accc0}" />
+    <Role id="{d6f3e9ea-6214-ea11-a811-000d3a0c8a65}" />
+    <Role id="{7669763c-69fb-ea11-a815-000d3a5accc0}" />
+    <Role id="{b9070954-8cfb-ea11-a815-000d3a5accc0}" />
+    <Role id="{a3b1dd66-6ef6-e911-a813-000d3a0c8cd2}" />
+    <Role id="{d6202a63-38f7-e911-a813-000d3a0c8ff0}" />
+    <Role id="{c787eae4-6214-ea11-a811-000d3a0c8a65}" />
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <EventHandlers>
+    <EventHandler eventname="onload" functionname="msnfp.FundraisingAndEngagement.AppModule.onLoadAsync" libraryname="msnfp_/scripts/FundraisingandEngagement.js" parameters="" enable="true" isblocking="false" />
+  </EventHandlers>
+  <LocalizedNames>
+    <LocalizedName description="Fundraising and Engagement" languagecode="1033" />
+  </LocalizedNames>
+  <appelements>
+    <appelement uniquename="two_msnfp_FundraisingandEngagement_canvasappid_two_writeproposal_5b3b6">
+      <canvasappid>
+        <name>two_writeproposal_5b3b6</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>two_msnfp_FundraisingandEngagement_canvasappid_two_writeproposal_5b3b6</name>
+    </appelement>
+  </appelements>
+</AppModule>

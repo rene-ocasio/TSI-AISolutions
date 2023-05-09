@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{a0946859-d2de-ed11-a7c7-0022480491bb}</WebResourceId>
+  <Name>two_/scripts/Two.Ribbon.Opportunity.js</Name>
+  <DisplayName>two_/scripts/Two.Ribbon.Opportunity.js</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/two_scriptsTwoRibbonOpportunityjsA0946859-D2DE-ED11-A7C7-0022480491BB</FileName>
+</WebResource>

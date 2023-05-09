@@ -1,0 +1,32 @@
+<appaction uniquename="two__WriteProposal!57a705ba556a4482a01c433e3b1e9da6!msnfp_FundraisingandEngagement!opportunity!0">
+  <appmoduleid>
+    <uniquename>msnfp_FundraisingandEngagement</uniquename>
+  </appmoduleid>
+  <buttonlabeltext default="Write Proposal">
+    <label description="Write Proposal" languagecode="1033" />
+  </buttonlabeltext>
+  <buttonsequencepriority>2000001.5000000000</buttonsequencepriority>
+  <context>1</context>
+  <contextentity>
+    <logicalname>opportunity</logicalname>
+  </contextentity>
+  <contextvalue>opportunity</contextvalue>
+  <fonticon>$clientsvg:OpenEnrollment</fonticon>
+  <hidden>0</hidden>
+  <iscustomizable>1</iscustomizable>
+  <isdisabled>0</isdisabled>
+  <isgrouptitlehidden>0</isgrouptitlehidden>
+  <location>0</location>
+  <name>WriteProposal!57a705ba556a4482a01c433e3b1e9da6</name>
+  <onclickeventjavascriptfunctionname>Two.Ribbon.Opportunity.OpenWriteProposalPage</onclickeventjavascriptfunctionname>
+  <onclickeventjavascriptparameters>[{"type":5}]</onclickeventjavascriptparameters>
+  <onclickeventjavascriptwebresourceid>
+    <webresourceid>a0946859-d2de-ed11-a7c7-0022480491bb</webresourceid>
+  </onclickeventjavascriptwebresourceid>
+  <onclickeventtype>2</onclickeventtype>
+  <origin>0</origin>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <type>0</type>
+  <visibilitytype>0</visibilitytype>
+</appaction>

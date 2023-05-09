@@ -1,0 +1,816 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.23041.242" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>TSI_OpenAI_FundraisingProposalDraft</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="TSI - OpenAI - Fundraising Proposal Draft" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>Threshold</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Threshold.World" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>two</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>93500</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="opportunity" behavior="2" />
+      <RootComponent type="29" id="{b1d5c557-3ede-ed11-a7c7-00224804902a}" behavior="0" />
+      <RootComponent type="61" schemaName="two_/scripts/Two.Ribbon.Opportunity.js" behavior="0" />
+      <RootComponent type="80" schemaName="msnfp_FundraisingandEngagement" behavior="0" />
+      <RootComponent type="300" schemaName="two_writeproposal_5b3b6" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="campaign" displayName="Campaign" solution="msdynce_Marketing (9.0.4.37)">
+          <package>msdynce_MarketingAnchor (9.0.23041.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.23041.1010)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="list" displayName="Marketing List" solution="msdynce_Marketing (9.0.4.37)">
+          <package>msdynce_MarketingAnchor (9.0.23041.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_iotalert" displayName="IoT Alert" solution="IoTConnector (1.8.9.7)">
+          <package>msdynce_ServiceAnchor (9.0.23041.1010)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_appeal" displayName="Appeal" solution="FundraisingandEngagement (2.2.3.0)">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_bankrun" displayName="Bank Run" solution="FundraisingandEngagement (2.2.3.0)">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_budget" displayName="Budget" solution="NonprofitCore (3.0.3.6)">
+          <package>NonprofitCoreAnchor (3.0.3.6)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_configuration" displayName="Configuration" solution="FundraisingandEngagement (2.2.3.0)">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_designatedcredit" displayName="Designated Credit" solution="NonprofitCore (3.0.3.6)">
+          <package>NonprofitCoreAnchor (3.0.3.6)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_designation" displayName="Designation" solution="NonprofitCore (3.0.3.6)">
+          <package>NonprofitCoreAnchor (3.0.3.6)</package>
+        </Required>
+        <Dependent type="300" schemaName="two_writeproposal_5b3b6" displayName="Write Proposal" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_designation" displayName="Designation" solution="NonprofitCore (3.0.3.6)">
+          <package>NonprofitCoreAnchor (3.0.3.6)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_designationplan" displayName="Designation Plan" solution="NonprofitCore (3.0.3.6)">
+          <package>NonprofitCoreAnchor (3.0.3.6)</package>
+        </Required>
+        <Dependent type="300" schemaName="two_writeproposal_5b3b6" displayName="Write Proposal" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_designationplan" displayName="Designation Plan" solution="NonprofitCore (3.0.3.6)">
+          <package>NonprofitCoreAnchor (3.0.3.6)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_donationimport" displayName="Donation Import" solution="FundraisingandEngagement (2.2.3.0)">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_donorcommitment" displayName="Donor Commitment" solution="NonprofitCore (3.0.3.6)">
+          <package>NonprofitCoreAnchor (3.0.3.6)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_event" displayName="Event" solution="FundraisingandEngagement (2.2.3.0)">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_eventpackage" displayName="Registration Package" solution="FundraisingandEngagement (2.2.3.0)">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_eventsponsor" displayName="Event Sponsor" solution="FundraisingandEngagement (2.2.3.0)">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_eventtables" displayName="Event Table" solution="FundraisingandEngagement (2.2.3.0)">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_getstarted" displayName="Get Started" solution="FundraisingandEngagement (2.2.3.0)">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_giftaiddeclaration" displayName="Gift Aid Declaration" solution="FundraisingandEngagement (2.2.3.0)">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_giftaidreturn" displayName="Gift Aid Return" solution="FundraisingandEngagement (2.2.3.0)">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_giftbatch" displayName="Gift Batch" solution="FundraisingandEngagement (2.2.3.0)">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_givinglevel" displayName="Giving Level" solution="FundraisingandEngagement (2.2.3.0)">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_membership" displayName="Membership" solution="NonprofitCore (3.0.3.6)">
+          <package>NonprofitCoreAnchor (3.0.3.6)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_membershipcategory" displayName="Membership Category" solution="NonprofitCore (3.0.3.6)">
+          <package>NonprofitCoreAnchor (3.0.3.6)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_membershipgroup" displayName="Membership Group" solution="FundraisingandEngagement (2.2.3.0)">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_membershiporder" displayName="Membership Order" solution="FundraisingandEngagement (2.2.3.0)">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_objective" displayName="Objective" solution="NonprofitCore (3.0.3.6)">
+          <package>NonprofitCoreAnchor (3.0.3.6)</package>
+        </Required>
+        <Dependent type="300" schemaName="two_writeproposal_5b3b6" displayName="Write Proposal" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_objective" displayName="Objective" solution="NonprofitCore (3.0.3.6)">
+          <package>NonprofitCoreAnchor (3.0.3.6)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_package" displayName="Package" solution="FundraisingandEngagement (2.2.3.0)">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_paymentmethod" displayName="Payment Method" solution="NonprofitCore (3.0.3.6)">
+          <package>NonprofitCoreAnchor (3.0.3.6)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_paymentprocessor" displayName="Payment Processor" solution="NonprofitCore (3.0.3.6)">
+          <package>NonprofitCoreAnchor (3.0.3.6)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_paymentschedule" displayName="Payment Schedule" solution="NonprofitCore (3.0.3.6)">
+          <package>NonprofitCoreAnchor (3.0.3.6)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_pledgematch" displayName="Pledge Match" solution="FundraisingandEngagement (2.2.3.0)">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_preferencecategory" displayName="Preference Category" solution="FundraisingandEngagement (2.2.3.0)">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_receipt" displayName="Receipt" solution="FundraisingandEngagement (2.2.3.0)">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_receiptlog" displayName="Receipt Log" solution="FundraisingandEngagement (2.2.3.0)">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_receiptstack" displayName="Receipt Stack" solution="FundraisingandEngagement (2.2.3.0)">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_refund" displayName="Refund" solution="FundraisingandEngagement (2.2.3.0)">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_registration" displayName="Registration" solution="FundraisingandEngagement (2.2.3.0)">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_report" displayName="Funding Report" solution="NonprofitCore (3.0.3.6)">
+          <package>NonprofitCoreAnchor (3.0.3.6)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_response" displayName="Credit/Debit Card Response" solution="FundraisingandEngagement (2.2.3.0)">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_transaction" displayName="Transaction" solution="NonprofitCore (3.0.3.6)">
+          <package>NonprofitCoreAnchor (3.0.3.6)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msnfp_tributeormemory" displayName="Tribute or Memory" solution="FundraisingandEngagement (2.2.3.0)">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)">
+          <package>msdynce_SalesAnchor (9.0.23041.10002)</package>
+        </Required>
+        <Dependent type="1" schemaName="opportunity" displayName="Opportunity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)">
+          <package>msdynce_SalesAnchor (9.0.23041.10002)</package>
+        </Required>
+        <Dependent type="29" displayName="Call OpenAI" id="{b1d5c557-3ede-ed11-a7c7-00224804902a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)">
+          <package>msdynce_SalesAnchor (9.0.23041.10002)</package>
+        </Required>
+        <Dependent type="300" schemaName="two_writeproposal_5b3b6" displayName="Write Proposal" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)">
+          <package>msdynce_SalesAnchor (9.0.23041.10002)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)">
+          <package>msdynce_SalesAnchor (9.0.23041.10002)</package>
+        </Required>
+        <Dependent type="appaction" displayName="two__WriteProposal!57a705ba556a4482a01c433e3b1e9da6!msnfp_FundraisingandEngagement!opportunity!0" id.uniquename="two__WriteProposal!57a705ba556a4482a01c433e3b1e9da6!msnfp_FundraisingandEngagement!opportunity!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Resources" displayName="Resources" parentSchemaName="msnfp_getstarted" parentDisplayName="Get Started" solution="FundraisingandEngagement (2.2.3.0)" id="{00c4071a-95b5-ec11-b3fe-0022480b1896}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Donor Classification YTD" displayName="Donor Classification YTD" parentSchemaName="contact" parentDisplayName="Contact" solution="FundraisingandEngagement (2.2.3.0)" id="{03439321-b043-ea11-a812-000d3af3bf00}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Accounts Missing Receipt Preference" displayName="Accounts Missing Receipt Preference" parentSchemaName="account" parentDisplayName="Account" solution="FundraisingandEngagement (2.2.3.0)" id="{0aef29c5-4ca4-ea11-a812-000d3a0c94a6}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Contacts" displayName="All Contacts" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}">
+          <package>msdynce_AppCommonAnchor (9.0.23041.10003)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Package Associated View" displayName="Package Associated View" parentSchemaName="msnfp_package" parentDisplayName="Package" solution="FundraisingandEngagement (2.2.3.0)" id="{16e62794-0a7a-48c9-9fd2-cb2ada6777e6}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Package Lookup View" displayName="Package Lookup View" parentSchemaName="msnfp_package" parentDisplayName="Package" solution="FundraisingandEngagement (2.2.3.0)" id="{1884565f-16e1-4806-a42c-71fbd3aef083}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Contacts: Preferences Report" displayName="Contacts: Preferences Report" parentSchemaName="contact" parentDisplayName="Contact" solution="NonprofitCore (3.0.3.6)" id="{1d22f965-d744-e911-a838-000d3a3b7224}">
+          <package>NonprofitCoreAnchor (3.0.3.6)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Households" displayName="Active Households" parentSchemaName="account" parentDisplayName="Account" solution="NonprofitCore (3.0.3.6)" id="{24e7af6c-5fdc-e811-a962-000d3a3780dd}">
+          <package>NonprofitCoreAnchor (3.0.3.6)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Contacts with Planned Giving" displayName="Contacts with Planned Giving" parentSchemaName="contact" parentDisplayName="Contact" solution="FundraisingandEngagement (2.2.3.0)" id="{2dacce7b-efa4-ea11-a812-000d3a0c94a6}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Household Contact Members" displayName="Household Contact Members" parentSchemaName="contact" parentDisplayName="Contact" solution="FundraisingandEngagement (2.2.3.0)" id="{2e2a4d19-94d2-ea11-a813-000d3a0c94a6}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Contacts with Lifetime Giving over $250" displayName="Contacts with Lifetime Giving over $250" parentSchemaName="contact" parentDisplayName="Contact" solution="FundraisingandEngagement (2.2.3.0)" id="{303a3f54-eda4-ea11-a812-000d3a0c94a6}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Household Lookup" displayName="Household Lookup" parentSchemaName="account" parentDisplayName="Account" solution="FundraisingandEngagement (2.2.3.0)" id="{399d82d4-4dd7-ea11-a813-000d3a0c94a6}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Contacts Missing Address" displayName="Contacts Missing Address" parentSchemaName="contact" parentDisplayName="Contact" solution="FundraisingandEngagement (2.2.3.0)" id="{3add2ec0-e8a4-ea11-a812-000d3a0c94a6}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Accounts with Do Not Email Preference" displayName="Accounts with Do Not Email Preference" parentSchemaName="account" parentDisplayName="Account" solution="FundraisingandEngagement (2.2.3.0)" id="{3bc3f751-b0b7-ea11-a812-000d3a0c94a6}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Accounts with Supporting Objectives" displayName="Accounts with Supporting Objectives" parentSchemaName="account" parentDisplayName="Account" solution="FundraisingandEngagement (2.2.3.0)" id="{6491edda-d4a4-ea11-a812-000d3a0c94a6}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Accounts" displayName="All Accounts" parentSchemaName="account" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}">
+          <package>msdynce_AppCommonAnchor (9.0.23041.10003)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Contacts Missing Receipt Preference" displayName="Contacts Missing Receipt Preference" parentSchemaName="contact" parentDisplayName="Contact" solution="FundraisingandEngagement (2.2.3.0)" id="{6e67976d-eba4-ea11-a812-000d3a0c94a6}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Account Contact Preferences" displayName="Account Contact Preferences" parentSchemaName="account" parentDisplayName="Account" solution="FundraisingandEngagement (2.2.3.0)" id="{731c9fd0-d6a4-ea11-a812-000d3a0c94a6}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Inactive Packages" displayName="Inactive Packages" parentSchemaName="msnfp_package" parentDisplayName="Package" solution="FundraisingandEngagement (2.2.3.0)" id="{733b246f-434f-470f-9e41-08923243dfc1}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Donors Report" displayName="Donors Report" parentSchemaName="contact" parentDisplayName="Contact" solution="NonprofitCore (3.0.3.6)" id="{7355367e-953e-e911-a826-000d3a3b73ac}">
+          <package>NonprofitCoreAnchor (3.0.3.6)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Contacts with Do Not Email Preference" displayName="Contacts with Do Not Email Preference" parentSchemaName="contact" parentDisplayName="Contact" solution="FundraisingandEngagement (2.2.3.0)" id="{7c2151e4-b0b7-ea11-a812-000d3a0c94a6}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Contacts Missing Email" displayName="Contacts Missing Email" parentSchemaName="contact" parentDisplayName="Contact" solution="FundraisingandEngagement (2.2.3.0)" id="{82480a52-eaa4-ea11-a812-000d3a0c94a6}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Accounts Missing Email Address" displayName="Accounts Missing Email Address" parentSchemaName="account" parentDisplayName="Account" solution="FundraisingandEngagement (2.2.3.0)" id="{92ee93bf-45a4-ea11-a812-000d3a0c94a6}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Accounts Missing Primary Address" displayName="Accounts Missing Primary Address" parentSchemaName="account" parentDisplayName="Account" solution="FundraisingandEngagement (2.2.3.0)" id="{a3b8bd78-45a4-ea11-a812-000d3a0c94a6}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Packages" displayName="Active Packages" parentSchemaName="msnfp_package" parentDisplayName="Package" solution="FundraisingandEngagement (2.2.3.0)" id="{a6d884f3-0d1d-4ed4-b299-8f7602080a89}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Households Report" displayName="Households Report" parentSchemaName="account" parentDisplayName="Account" solution="NonprofitCore (3.0.3.6)" id="{a8ce8265-ac3e-e911-a826-000d3a3b73ac}">
+          <package>NonprofitCoreAnchor (3.0.3.6)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Contacts with Supporting Objectives" displayName="Contacts with Supporting Objectives" parentSchemaName="contact" parentDisplayName="Contact" solution="FundraisingandEngagement (2.2.3.0)" id="{ad038ec2-eca4-ea11-a812-000d3a0c94a6}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Organizations" displayName="Active Organizations" parentSchemaName="account" parentDisplayName="Account" solution="NonprofitCore (3.0.3.6)" id="{b4045ebc-cbd3-e811-a960-000d3a37870e}">
+          <package>NonprofitCoreAnchor (3.0.3.6)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Accounts without an Opportunity" displayName="Accounts without an Opportunity" parentSchemaName="account" parentDisplayName="Account" solution="FundraisingandEngagement (2.2.3.0)" id="{c1ed0c65-dfa4-ea11-a812-000d3a0c94a6}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Contacts Missing Phone Number" displayName="Contacts Missing Phone Number" parentSchemaName="contact" parentDisplayName="Contact" solution="FundraisingandEngagement (2.2.3.0)" id="{c2097e92-e7a4-ea11-a812-000d3a0c94a6}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Package Advanced Find View" displayName="Package Advanced Find View" parentSchemaName="msnfp_package" parentDisplayName="Package" solution="FundraisingandEngagement (2.2.3.0)" id="{c26fe23c-b9da-42d3-9318-fdd39712b417}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Accounts with Lifetime Giving over $500" displayName="Accounts with Lifetime Giving over $500" parentSchemaName="account" parentDisplayName="Account" solution="FundraisingandEngagement (2.2.3.0)" id="{c4ad4692-d9a4-ea11-a812-000d3a0c94a6}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Accounts with an Opportunity" displayName="Accounts with an Opportunity" parentSchemaName="account" parentDisplayName="Account" solution="FundraisingandEngagement (2.2.3.0)" id="{c7d4bcd1-dea4-ea11-a812-000d3a0c94a6}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Contacts with Preferred Language other than EN" displayName="Contacts with Preferred Language other than EN" parentSchemaName="contact" parentDisplayName="Contact" solution="FundraisingandEngagement (2.2.3.0)" id="{ce53caf7-eaa4-ea11-a812-000d3a0c94a6}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Donors" displayName="Active Donors" parentSchemaName="contact" parentDisplayName="Contact" solution="NonprofitCore (3.0.3.6)" id="{cf955fa0-92d7-e811-a960-000d3a378f36}">
+          <package>NonprofitCoreAnchor (3.0.3.6)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Accounts Missing Phone Number" displayName="Accounts Missing Phone Number" parentSchemaName="account" parentDisplayName="Account" solution="FundraisingandEngagement (2.2.3.0)" id="{cfa1bd5a-43a4-ea11-a812-000d3a0c94a6}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Accounts Missing Primary Contact" displayName="Accounts Missing Primary Contact" parentSchemaName="account" parentDisplayName="Account" solution="FundraisingandEngagement (2.2.3.0)" id="{dd1a3a41-dda4-ea11-a812-000d3a0c94a6}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Accounts with a Parent Account" displayName="Accounts with a Parent Account" parentSchemaName="account" parentDisplayName="Account" solution="FundraisingandEngagement (2.2.3.0)" id="{e755c91b-41a4-ea11-a812-000d3a0c94a6}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Accounts with Preferred Language other than English" displayName="Accounts with Preferred Language other than English" parentSchemaName="account" parentDisplayName="Account" solution="FundraisingandEngagement (2.2.3.0)" id="{f80a040f-49a4-ea11-a812-000d3a0c94a6}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Fundraising: Membership" parentDisplayName="Membership" solution="FundraisingandEngagement (2.2.3.0)" id="{01d7135d-ba58-433d-8f5e-6b681ad4d450}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Fundraising: Objective" parentDisplayName="Objective" solution="FundraisingandEngagement (2.2.3.0)" id="{052781ed-f437-4f93-a659-26f062e194fd}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Fundraising: Payment Schedule" parentDisplayName="Payment Schedule" solution="FundraisingandEngagement (2.2.3.0)" id="{14059d56-35aa-4380-8b13-7dc0af57e955}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Fundraising: Donor Commitment" parentDisplayName="Donor Commitment" solution="FundraisingandEngagement (2.2.3.0)" id="{1421ca81-de38-408c-be76-fc4b0c8ca34b}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Fundraising: Household" parentDisplayName="Account" solution="FundraisingandEngagement (2.2.3.0)" id="{1738bfe6-7a21-4d68-b90f-179a693ecb9c}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Nonprofit Account Quick Create" parentDisplayName="Account" solution="NonprofitCore (3.0.3.6)" id="{179d553f-4804-4452-aa11-7212d2d4dc14}">
+          <package>NonprofitCoreAnchor (3.0.3.6)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Fundraising: Designation" parentDisplayName="Designation" solution="FundraisingandEngagement (2.2.3.0)" id="{1e599521-0425-4911-a594-319a15717589}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Fundraising: Information" parentDisplayName="Opportunity" solution="FundraisingandEngagement (2.2.3.0)" id="{21708dfd-cee1-4f94-8398-5c48ed0abce9}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Quick Opportunity View Form" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{24b5ce86-1811-44c3-b1ad-90f7ea02d2d7}">
+          <package>msdynce_SalesAnchor (9.0.23041.10002)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Development Overview" solution="FundraisingandEngagement (2.2.3.0)" id="{2c2bd880-42e5-ea11-a817-000d3a0c94a6}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Fundraising: Designation Plan" parentDisplayName="Designation Plan" solution="FundraisingandEngagement (2.2.3.0)" id="{4fdc3e8f-ef5a-41f0-bca7-16e4433522b2}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Fundraising: Contact" parentDisplayName="Contact" solution="FundraisingandEngagement (2.2.3.0)" id="{67cc8726-db9b-445e-88ee-171fe5388f87}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Marketing List" parentDisplayName="Marketing List" solution="msdynce_Marketing (9.0.4.37)" id="{6e77626b-e693-44f0-a1c7-359b1a7a9a4c}">
+          <package>msdynce_MarketingAnchor (9.0.23041.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Payment Schedule" solution="NonprofitCore (3.0.3.6)" id="{72360de7-53d9-4e03-ac39-7c5da79fe113}">
+          <package>NonprofitCoreAnchor (3.0.3.6)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Fundraising Overview" solution="FundraisingandEngagement (2.2.3.0)" id="{75d41801-c0e7-ea11-a817-000d3a303484}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Fundraising: Organization" parentDisplayName="Account" solution="FundraisingandEngagement (2.2.3.0)" id="{7a0ea9e9-fcb8-45ca-b24f-b8c2b6980eb5}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Transaction" solution="NonprofitCore (3.0.3.6)" id="{867b7a5c-380f-46dd-8162-693e19aa5e03}">
+          <package>NonprofitCoreAnchor (3.0.3.6)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Events Overview" solution="FundraisingandEngagement (2.2.3.0)" id="{8f77a88d-42e5-ea11-a817-000d3a0c94a6}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Fundraising: Membership Category" parentDisplayName="Membership Category" solution="FundraisingandEngagement (2.2.3.0)" id="{904bbe89-abe5-42c2-8591-fe168838ba9c}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Fundraising: Transaction" parentDisplayName="Transaction" solution="FundraisingandEngagement (2.2.3.0)" id="{9d57debe-68e7-4d29-9d35-6dec55557ae7}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Fundraising: Information" parentDisplayName="Funding Report" solution="FundraisingandEngagement (2.2.3.0)" id="{aa5d1aee-ee80-446b-8e6e-5f08109ed05c}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Fundraising: Designated Credit" parentDisplayName="Designated Credit" solution="FundraisingandEngagement (2.2.3.0)" id="{cc20d728-ae61-47d2-9a48-59fde4f99ea4}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Package" solution="FundraisingandEngagement (2.2.3.0)" id="{d7810ee1-e69e-450a-96ef-ee9715bb7a50}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Donor Commitment" solution="NonprofitCore (3.0.3.6)" id="{ddf82332-8212-47b4-83a7-f98b4db7d19d}">
+          <package>NonprofitCoreAnchor (3.0.3.6)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Fundraising: Payment Processor" parentDisplayName="Payment Processor" solution="FundraisingandEngagement (2.2.3.0)" id="{dfb9f937-2acb-463c-ae61-827d82928179}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Fundraising: Information" parentDisplayName="Campaign" solution="FundraisingandEngagement (2.2.3.0)" id="{e0cae4d6-3701-4623-815d-1ef6a8adf710}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{e3c588ee-8e11-49da-a5fe-3800f3f683de}">
+          <package>msdynce_SalesAnchor (9.0.23041.10002)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Fundraising: Payment Method" parentDisplayName="Payment Method" solution="FundraisingandEngagement (2.2.3.0)" id="{eb2f09f3-5429-4a31-8e59-3d5a6a2c9008}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Fundraising: Information" parentDisplayName="Package" solution="FundraisingandEngagement (2.2.3.0)" id="{f03e5b15-db28-4459-82ee-972841757181}">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msnfp_NonProfitAppLogo" displayName="msnfp_NonProfitAppLogo" solution="NonprofitCore (3.0.3.6)">
+          <package>NonprofitCoreAnchor (3.0.3.6)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="62" schemaName="msnfp_FundraisingandEngagement" solution="FundraisingandEngagement (2.2.3.0)">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" solution="FundraisingandEngagement (2.2.3.0)">
+          <package>FundraisingandEngagementAnchor (2.2.3.0)</package>
+        </Required>
+        <Dependent type="80" schemaName="msnfp_FundraisingandEngagement" displayName="Fundraising and Engagement" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

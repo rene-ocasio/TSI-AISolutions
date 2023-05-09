@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>two_writeproposal_5b3b6</Name>
+  <AppVersion>2023-05-08T19:22:42Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.23044.15.0</CreatedByClientVersion>
+  <MinClientVersion>3.23044.15.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"500","primaryDeviceHeight":"768","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.23044.15","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false","sienaVersion":"20230428T232900Z-3.23042.12.0"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+  <DisplayName>Write Proposal</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"7869ef97-e5da-4147-ac91-712efb78c364":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1615/1.0.1615.3163/logicflows/icon.png","dataSources":["CallOpenAI"],"dependencies":["c1466564-f304-4f98-85be-bc836f7cdc1d"],"dependents":[],"parameterHints":{"workflowName":{"value":"f1ddb4c6-b080-458f-a3cd-0eb04a1d34f1"},"workflowEntityId":{"value":"b1d5c557-3ede-ed11-a7c7-00224804902a"},"c1466564-f304-4f98-85be-bc836f7cdc1d":{"value":"shared_commondataserviceforapps"}},"parameterHintsV2":{"workflowName":{"value":"f1ddb4c6-b080-458f-a3cd-0eb04a1d34f1"},"workflowEntityId":{"value":"b1d5c557-3ede-ed11-a7c7-00224804902a"},"shared_commondataserviceforapps":{"value":"c1466564-f304-4f98-85be-bc836f7cdc1d"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"c1466564-f304-4f98-85be-bc836f7cdc1d":{"id":"/providers/microsoft.powerapps/apis/shared_commondataserviceforapps","displayName":"Microsoft Dataverse","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1628/1.0.1628.3245/commondataserviceforapps/icon.png","dataSources":[],"dependencies":[],"dependents":["7869ef97-e5da-4147-ac91-712efb78c364"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Premium"}}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{"Opportunities":{"entitySetName":"opportunities","logicalName":"opportunity"},"Designations":{"entitySetName":"msnfp_designations","logicalName":"msnfp_designation"},"Contacts":{"entitySetName":"contacts","logicalName":"contact"},"Accounts":{"entitySetName":"accounts","logicalName":"account"},"Email Messages":{"entitySetName":"emails","logicalName":"email"},"Objectives":{"entitySetName":"msnfp_objectives","logicalName":"msnfp_objective"},"Designation Plans":{"entitySetName":"msnfp_designationplans","logicalName":"msnfp_designationplan"}}}}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>2</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"dependencyid":"b1d5c557-3ede-ed11-a7c7-00224804902a","componenttype":29,"componenttypeplatformname":"Workflow"},{"logicalname":"opportunity","componenttype":1},{"logicalname":"msnfp_designation","componenttype":1},{"logicalname":"contact","componenttype":1},{"logicalname":"account","componenttype":1},{"logicalname":"email","componenttype":1},{"logicalname":"msnfp_objective","componenttype":1},{"logicalname":"msnfp_designationplan","componenttype":1}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/two_writeproposal_5b3b6_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/two_writeproposal_5b3b6_DocumentUri.msapp</DocumentUri>
+</CanvasApp>

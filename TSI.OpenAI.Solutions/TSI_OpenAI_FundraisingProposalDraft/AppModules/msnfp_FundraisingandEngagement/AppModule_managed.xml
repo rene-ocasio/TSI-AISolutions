@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>msnfp_FundraisingandEngagement</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>f3b1a61a-6fcd-e811-a960-000d3a37870e</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents />
+  <EventHandlers>
+    <EventHandler eventname="onload" functionname="msnfp.FundraisingAndEngagement.AppModule.onLoadAsync" libraryname="msnfp_/scripts/FundraisingandEngagement.js" parameters="" enable="true" isblocking="false" />
+  </EventHandlers>
+  <LocalizedNames>
+    <LocalizedName description="Fundraising and Engagement" languagecode="1033" />
+  </LocalizedNames>
+  <appelements>
+    <appelement uniquename="two_msnfp_FundraisingandEngagement_canvasappid_two_writeproposal_5b3b6">
+      <canvasappid>
+        <name>two_writeproposal_5b3b6</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>two_msnfp_FundraisingandEngagement_canvasappid_two_writeproposal_5b3b6</name>
+    </appelement>
+  </appelements>
+</AppModule>
