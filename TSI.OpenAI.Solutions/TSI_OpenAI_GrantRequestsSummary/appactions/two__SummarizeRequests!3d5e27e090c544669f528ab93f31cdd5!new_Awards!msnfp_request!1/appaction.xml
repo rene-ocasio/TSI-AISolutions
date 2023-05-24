@@ -1,0 +1,37 @@
+<appaction uniquename="two__SummarizeRequests!3d5e27e090c544669f528ab93f31cdd5!new_Awards!msnfp_request!1">
+  <appmoduleid>
+    <uniquename>new_Awards</uniquename>
+  </appmoduleid>
+  <buttonlabeltext default="Summarize Requests">
+    <label description="Summarize Requests" languagecode="1033" />
+  </buttonlabeltext>
+  <buttonsequencepriority>500025.5000000000</buttonsequencepriority>
+  <context>1</context>
+  <contextentity>
+    <logicalname>msnfp_request</logicalname>
+  </contextentity>
+  <contextvalue>msnfp_request</contextvalue>
+  <fonticon>$clientsvg:OpenEnrollment</fonticon>
+  <hidden>0</hidden>
+  <iscustomizable>1</iscustomizable>
+  <isdisabled>0</isdisabled>
+  <isgrouptitlehidden>0</isgrouptitlehidden>
+  <location>1</location>
+  <name>SummarizeRequests!3d5e27e090c544669f528ab93f31cdd5</name>
+  <onclickeventjavascriptfunctionname>Two.Ribbon.Request.SummarizeRequests</onclickeventjavascriptfunctionname>
+  <onclickeventjavascriptparameters>[{"type":23}]</onclickeventjavascriptparameters>
+  <onclickeventjavascriptwebresourceid>
+    <webresourceid>2a29cee0-07f5-ed11-8848-0022480491bb</webresourceid>
+  </onclickeventjavascriptwebresourceid>
+  <onclickeventtype>2</onclickeventtype>
+  <origin>0</origin>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <type>0</type>
+  <visibilityformulacomponentlibraryid>
+    <name>two_awardsdefaultcommandlibrary_1c547</name>
+  </visibilityformulacomponentlibraryid>
+  <visibilityformulacomponentname>a466040a147f4971a936c95a57fe10d7</visibilityformulacomponentname>
+  <visibilityformulafunctionname>Visible</visibilityformulafunctionname>
+  <visibilitytype>1</visibilitytype>
+</appaction>

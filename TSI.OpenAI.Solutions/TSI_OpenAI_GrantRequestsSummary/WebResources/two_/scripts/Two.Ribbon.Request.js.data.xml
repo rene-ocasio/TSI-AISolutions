@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{2a29cee0-07f5-ed11-8848-0022480491bb}</WebResourceId>
+  <Name>two_/scripts/Two.Ribbon.Request.js</Name>
+  <DisplayName>two_/scripts/Two.Ribbon.Request.js</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/two_scriptsTwoRibbonRequestjs2A29CEE0-07F5-ED11-8848-0022480491BB</FileName>
+</WebResource>
