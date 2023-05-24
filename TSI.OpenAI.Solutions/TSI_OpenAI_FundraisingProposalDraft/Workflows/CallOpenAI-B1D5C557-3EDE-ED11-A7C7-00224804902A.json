@@ -24,7 +24,7 @@
           "type": "SecureObject"
         },
         "OpenAI API Key (two_OpenAIAPIKey)": {
-          "defaultValue": "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",
+          "defaultValue": "123456789",
           "type": "String",
           "metadata": {
             "schemaName": "two_OpenAIAPIKey"
