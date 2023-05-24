@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.23042.202" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.23043.234" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>TSI_OpenAI_GrantRequestsSummary</UniqueName>
     <LocalizedNames>
@@ -124,18 +124,6 @@
         <Dependent type="80" schemaName="new_Awards" displayName="Awards" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="msnfp_designation" displayName="Designation" solution="NonprofitCore (3.0.3.6)">
-          <package>NonprofitCoreAnchor (3.0.3.6)</package>
-        </Required>
-        <Dependent type="300" schemaName="two_grantrequestssummaryfordocket_bfa76" displayName="Grant Requests Summary for Docket" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="msnfp_designationplan" displayName="Designation Plan" solution="NonprofitCore (3.0.3.6)">
-          <package>NonprofitCoreAnchor (3.0.3.6)</package>
-        </Required>
-        <Dependent type="300" schemaName="two_grantrequestssummaryfordocket_bfa76" displayName="Grant Requests Summary for Docket" />
-      </MissingDependency>
-      <MissingDependency>
         <Required type="1" schemaName="msnfp_disbursement" displayName="Disbursement" solution="NonprofitCore (3.0.3.6)">
           <package>NonprofitCoreAnchor (3.0.3.6)</package>
         </Required>
@@ -164,12 +152,6 @@
           <package>NonprofitCoreAnchor (3.0.3.6)</package>
         </Required>
         <Dependent type="80" schemaName="new_Awards" displayName="Awards" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="msnfp_objective" displayName="Objective" solution="NonprofitCore (3.0.3.6)">
-          <package>NonprofitCoreAnchor (3.0.3.6)</package>
-        </Required>
-        <Dependent type="300" schemaName="two_grantrequestssummaryfordocket_bfa76" displayName="Grant Requests Summary for Docket" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msnfp_objective" displayName="Objective" solution="NonprofitCore (3.0.3.6)">
@@ -260,12 +242,6 @@
           <package>NonprofitCoreAnchor (3.0.3.6)</package>
         </Required>
         <Dependent type="80" schemaName="new_Awards" displayName="Awards" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)">
-          <package>msdynce_SalesAnchor (9.0.23043.10005)</package>
-        </Required>
-        <Dependent type="300" schemaName="two_grantrequestssummaryfordocket_bfa76" displayName="Grant Requests Summary for Docket" />
       </MissingDependency>
       <MissingDependency>
         <Required type="29" displayName="Call OpenAI" solution="Active" id="{b1d5c557-3ede-ed11-a7c7-00224804902a}" />
