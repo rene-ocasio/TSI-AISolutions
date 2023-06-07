@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{cbdc0c32-9d00-ee11-8f6e-00224804902a}</WebResourceId>
+  <Name>two_/scripts/Two.Ribbon.GiftRequest.js</Name>
+  <DisplayName>two_/scripts/Two.Ribbon.GiftRequest.js</DisplayName>
+  <LanguageCode>0</LanguageCode>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/two_scriptsTwoRibbonGiftRequestjsCBDC0C32-9D00-EE11-8F6E-00224804902A</FileName>
+</WebResource>

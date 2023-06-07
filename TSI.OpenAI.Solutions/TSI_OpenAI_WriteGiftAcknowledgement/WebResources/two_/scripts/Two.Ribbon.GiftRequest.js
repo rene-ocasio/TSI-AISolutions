@@ -10,7 +10,7 @@ Two.Ribbon.GiftRequest = function () {
             pageType: "custom", 
             name: "two_generategiftacknowledgement_4d7bc", 
             selectedGiftId:data,
-            //recordId IS A RESERVED PARAMETER. PUT THE RELEVANT DATA IN HERE
+            //THIS IS A RESERVED PARAMETER. PUT THE RELEVANT ID IN HERE
             //IF ITS A SINGLE ID, STRIP THE CURLY BRACKETS
             recordId: data[0].replace(/[{}]/g, ""),
         };

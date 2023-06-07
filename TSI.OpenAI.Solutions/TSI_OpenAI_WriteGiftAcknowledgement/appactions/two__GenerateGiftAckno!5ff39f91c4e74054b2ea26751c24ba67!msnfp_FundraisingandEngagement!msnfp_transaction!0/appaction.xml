@@ -1,0 +1,32 @@
+<appaction uniquename="two__GenerateGiftAckno!5ff39f91c4e74054b2ea26751c24ba67!msnfp_FundraisingandEngagement!msnfp_transaction!0">
+  <appmoduleid>
+    <uniquename>msnfp_FundraisingandEngagement</uniquename>
+  </appmoduleid>
+  <buttonlabeltext default="Write Gift Acknowledgement">
+    <label description="Write Gift Acknowledgement" languagecode="1033" />
+  </buttonlabeltext>
+  <buttonsequencepriority>78.5000000000</buttonsequencepriority>
+  <context>1</context>
+  <contextentity>
+    <logicalname>msnfp_transaction</logicalname>
+  </contextentity>
+  <contextvalue>msnfp_transaction</contextvalue>
+  <fonticon>CheckedMail</fonticon>
+  <hidden>0</hidden>
+  <iscustomizable>1</iscustomizable>
+  <isdisabled>0</isdisabled>
+  <isgrouptitlehidden>0</isgrouptitlehidden>
+  <location>0</location>
+  <name>GenerateGiftAckno!5ff39f91c4e74054b2ea26751c24ba67</name>
+  <onclickeventjavascriptfunctionname>Two.Ribbon.GiftRequest.AcknowlegeGift</onclickeventjavascriptfunctionname>
+  <onclickeventjavascriptparameters>[{"type":3}]</onclickeventjavascriptparameters>
+  <onclickeventjavascriptwebresourceid>
+    <webresourceid>cbdc0c32-9d00-ee11-8f6e-00224804902a</webresourceid>
+  </onclickeventjavascriptwebresourceid>
+  <onclickeventtype>2</onclickeventtype>
+  <origin>0</origin>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <type>0</type>
+  <visibilitytype>0</visibilitytype>
+</appaction>
