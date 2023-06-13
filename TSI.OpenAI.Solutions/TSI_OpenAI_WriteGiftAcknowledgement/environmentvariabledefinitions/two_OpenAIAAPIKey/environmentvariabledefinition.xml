@@ -1,5 +1,5 @@
 <environmentvariabledefinition schemaname="two_OpenAIAAPIKey">
-  <defaultvalue>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</defaultvalue>
+  <defaultvalue>OPENAIKEY HERE</defaultvalue>
   <displayname default="OpenAI API Key">
     <label description="OpenAI API Key" languagecode="1033" />
   </displayname>

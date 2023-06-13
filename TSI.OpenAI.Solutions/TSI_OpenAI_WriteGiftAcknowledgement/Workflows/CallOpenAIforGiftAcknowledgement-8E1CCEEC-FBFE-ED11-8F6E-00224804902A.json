@@ -65,7 +65,7 @@
             "method": "POST",
             "uri": "https://api.openai.com/v1/completions",
             "headers": {
-              "Authorization": "Bearer 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",
+              "Authorization": "Bearer OPENAI KEY HERE",
               "Content-Type": "application/json"
             },
             "body": {
