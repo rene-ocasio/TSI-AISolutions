@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>two_generategiftacknowledgement_4d7bc</Name>
-  <AppVersion>2023-06-07T16:07:35Z</AppVersion>
+  <AppVersion>2023-06-13T15:29:44Z</AppVersion>
   <Status>Ready</Status>
   <CreatedByClientVersion>3.23053.41.0</CreatedByClientVersion>
   <MinClientVersion>3.23053.41.0</MinClientVersion>
-  <Tags>{"primaryDeviceWidth":"500","primaryDeviceHeight":"768","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.23053.41","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false","sienaVersion":"20230607T152815Z-3.23053.41.0"}</Tags>
+  <Tags>{"primaryDeviceWidth":"500","primaryDeviceHeight":"768","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.23053.41","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false","sienaVersion":"20230612T185106Z-3.23053.41.0"}</Tags>
   <IsCdsUpgraded>0</IsCdsUpgraded>
   <GalleryItemId xsi:nil="true"></GalleryItemId>
   <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
@@ -16,8 +16,8 @@ With the click of a button, fundraisers can generate a draft acknowledgement ema
   <CommitMessage xsi:nil="true"></CommitMessage>
   <Publisher xsi:nil="true"></Publisher>
   <AuthorizationReferences>[]</AuthorizationReferences>
-  <ConnectionReferences>{"43b17474-f313-44c8-9f8d-4bc6ec573a24":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1636/1.0.1636.3297/logicflows/icon.png","dataSources":["CallOpenAIforGiftAcknowledgement"],"dependencies":[],"dependents":[],"parameterHints":{"workflowName":{"value":"5b7bbf40-6beb-487f-af94-8bef53953a9e"},"workflowEntityId":{"value":"8e1cceec-fbfe-ed11-8f6e-00224804902a"}},"parameterHintsV2":{"workflowName":{"value":"5b7bbf40-6beb-487f-af94-8bef53953a9e"},"workflowEntityId":{"value":"8e1cceec-fbfe-ed11-8f6e-00224804902a"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]}}</ConnectionReferences>
-  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{"Transactions":{"entitySetName":"msnfp_transactions","logicalName":"msnfp_transaction"},"Activities":{"entitySetName":"activitypointers","logicalName":"activitypointer"},"Designations":{"entitySetName":"msnfp_designations","logicalName":"msnfp_designation"},"Campaigns":{"entitySetName":"campaigns","logicalName":"campaign"},"Appeals":{"entitySetName":"msnfp_appeals","logicalName":"msnfp_appeal"},"Accounts":{"entitySetName":"accounts","logicalName":"account"},"Email Messages":{"entitySetName":"emails","logicalName":"email"}}}}</DatabaseReferences>
+  <ConnectionReferences>{"43b17474-f313-44c8-9f8d-4bc6ec573a24":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1636/1.0.1636.3297/logicflows/icon.png","dataSources":["CallOpenAIforGiftAcknowledgement"],"dependencies":[],"dependents":[],"parameterHints":{"workflowName":{"value":"9571cc79-f7ab-4603-a5c3-003d92904885"},"workflowEntityId":{"value":"8e1cceec-fbfe-ed11-8f6e-00224804902a"}},"parameterHintsV2":{"workflowName":{"value":"9571cc79-f7ab-4603-a5c3-003d92904885"},"workflowEntityId":{"value":"8e1cceec-fbfe-ed11-8f6e-00224804902a"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]}}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{"Transactions":{"entitySetName":"msnfp_transactions","logicalName":"msnfp_transaction"},"Activities":{"entitySetName":"activitypointers","logicalName":"activitypointer"},"Designations":{"entitySetName":"msnfp_designations","logicalName":"msnfp_designation"},"Campaigns":{"entitySetName":"campaigns","logicalName":"campaign"},"Appeals":{"entitySetName":"msnfp_appeals","logicalName":"msnfp_appeal"},"Accounts":{"entitySetName":"accounts","logicalName":"account"},"Email Messages":{"entitySetName":"emails","logicalName":"email"},"Currencies":{"entitySetName":"transactioncurrencies","logicalName":"transactioncurrency"},"Contacts":{"entitySetName":"contacts","logicalName":"contact"}}}}</DatabaseReferences>
   <AppComponents>[]</AppComponents>
   <AppComponentDependencies>[]</AppComponentDependencies>
   <CanConsumeAppPass>1</CanConsumeAppPass>
@@ -26,7 +26,7 @@ With the click of a button, fundraisers can generate a draft acknowledgement ema
   <AdminControlBypassConsent>0</AdminControlBypassConsent>
   <EmbeddedApp xsi:nil="true"></EmbeddedApp>
   <IntroducedVersion>1.0</IntroducedVersion>
-  <CdsDependencies>{"cdsdependencies":[{"dependencyid":"8e1cceec-fbfe-ed11-8f6e-00224804902a","componenttype":29,"componenttypeplatformname":"Workflow"},{"logicalname":"msnfp_transaction","componenttype":1},{"logicalname":"activitypointer","componenttype":1},{"logicalname":"msnfp_designation","componenttype":1},{"logicalname":"campaign","componenttype":1},{"logicalname":"msnfp_appeal","componenttype":1},{"logicalname":"account","componenttype":1},{"logicalname":"email","componenttype":1}]}</CdsDependencies>
+  <CdsDependencies>{"cdsdependencies":[{"dependencyid":"8e1cceec-fbfe-ed11-8f6e-00224804902a","componenttype":29,"componenttypeplatformname":"Workflow"},{"logicalname":"msnfp_transaction","componenttype":1},{"logicalname":"activitypointer","componenttype":1},{"logicalname":"msnfp_designation","componenttype":1},{"logicalname":"campaign","componenttype":1},{"logicalname":"msnfp_appeal","componenttype":1},{"logicalname":"account","componenttype":1},{"logicalname":"email","componenttype":1},{"logicalname":"transactioncurrency","componenttype":1},{"logicalname":"contact","componenttype":1}]}</CdsDependencies>
   <IsCustomizable>1</IsCustomizable>
   <BackgroundImageUri>/CanvasApps/two_generategiftacknowledgement_4d7bc_BackgroundImageUri</BackgroundImageUri>
   <DocumentUri>/CanvasApps/two_generategiftacknowledgement_4d7bc_DocumentUri.msapp</DocumentUri>

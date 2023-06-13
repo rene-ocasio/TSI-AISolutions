@@ -65,17 +65,17 @@
             "method": "POST",
             "uri": "https://api.openai.com/v1/completions",
             "headers": {
-              "Authorization": "Bearer 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",
+              "Authorization": "Bearer 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",
               "Content-Type": "application/json"
             },
             "body": {
               "model": "text-davinci-003",
               "prompt": "@{variables('OpenAIContext')}",
-              "temperature": 0.7,
-              "max_tokens": 750,
+              "temperature": 0.9,
+              "max_tokens": 1050,
               "top_p": 1,
-              "frequency_penalty": 0,
-              "presence_penalty": 0
+              "frequency_penalty": 0.25,
+              "presence_penalty": 0.25
             }
           }
         },

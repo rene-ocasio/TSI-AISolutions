@@ -26,6 +26,6 @@
   <IntroducedVersion>1.0</IntroducedVersion>
   <CdsDependencies>{"cdsdependencies":[{"logicalname":"msnfp_transaction","componenttype":1}]}</CdsDependencies>
   <IsCustomizable>1</IsCustomizable>
-  <BackgroundImageUri>/CanvasApps/two_fundraisingandengagementdefaultcommandlib87142_BackgroundImageUri</BackgroundImageUri>
-  <DocumentUri>/CanvasApps/two_fundraisingandengagementdefaultcommandlib36003_DocumentUri.msapp</DocumentUri>
+  <BackgroundImageUri>/CanvasApps/two_fundraisingandengagementdefaultcommandlib66789_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/two_fundraisingandengagementdefaultcommandlib68080_DocumentUri.msapp</DocumentUri>
 </CanvasApp>
