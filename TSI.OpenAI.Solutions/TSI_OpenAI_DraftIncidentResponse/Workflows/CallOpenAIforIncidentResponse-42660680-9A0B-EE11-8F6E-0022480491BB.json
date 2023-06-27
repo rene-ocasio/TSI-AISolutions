@@ -1,0 +1,184 @@
+{
+  "properties": {
+    "connectionReferences": {},
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "manual": {
+          "metadata": {
+            "operationMetadataId": "890fcb15-5590-4cdc-a1f2-995810e33102"
+          },
+          "type": "Request",
+          "kind": "PowerApp",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "Initializevariable_Value": {
+                  "type": "string",
+                  "description": "Enter initial value",
+                  "x-ms-powerflows-param-ispartial": false
+                }
+              },
+              "required": [
+                "Initializevariable_Value"
+              ]
+            }
+          }
+        }
+      },
+      "actions": {
+        "HTTP": {
+          "runAfter": {
+            "Initialize_variable": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "bb71e12b-1924-4385-9dd1-1030019871a8"
+          },
+          "type": "Http",
+          "inputs": {
+            "method": "POST",
+            "uri": "https://api.openai.com/v1/completions",
+            "headers": {
+              "Authorization": "Bearer KEY HERE",
+              "Content-Type": "application/json"
+            },
+            "body": {
+              "model": "text-davinci-003",
+              "prompt": "@{variables('OpenAIContext')}",
+              "temperature": 0.9,
+              "max_tokens": 1050,
+              "top_p": 1,
+              "frequency_penalty": 0.1,
+              "presence_penalty": 0.1
+            }
+          }
+        },
+        "Initialize_variable": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "aa76b8cb-79e6-40e6-8c53-d6450946d28b"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "OpenAIContext",
+                "type": "string",
+                "value": "@{triggerBody()['Initializevariable_Value']}"
+              }
+            ]
+          }
+        },
+        "Parse_JSON": {
+          "runAfter": {
+            "HTTP": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "35819752-445c-4e6a-80b0-a8f1c8782598"
+          },
+          "type": "ParseJson",
+          "inputs": {
+            "content": "@body('HTTP')",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "object": {
+                  "type": "string"
+                },
+                "created": {
+                  "type": "integer"
+                },
+                "model": {
+                  "type": "string"
+                },
+                "choices": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "index": {
+                        "type": "integer"
+                      },
+                      "logprobs": {},
+                      "finish_reason": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "index",
+                      "logprobs",
+                      "finish_reason"
+                    ]
+                  }
+                },
+                "usage": {
+                  "type": "object",
+                  "properties": {
+                    "prompt_tokens": {
+                      "type": "integer"
+                    },
+                    "completion_tokens": {
+                      "type": "integer"
+                    },
+                    "total_tokens": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "Respond_to_a_PowerApp_or_flow": {
+          "runAfter": {
+            "Parse_JSON": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "93539e8f-164e-4fda-86f0-ae0567b85cbb"
+          },
+          "type": "Response",
+          "kind": "PowerApp",
+          "inputs": {
+            "statusCode": 200,
+            "body": {
+              "openairesponse": "@{body('Parse_JSON')?['choices'][0]?['text']}"
+            },
+            "schema": {
+              "type": "object",
+              "properties": {
+                "openairesponse": {
+                  "title": "openAIResponse",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "templateName": ""
+  },
+  "schemaVersion": "1.0.0.0"
+}

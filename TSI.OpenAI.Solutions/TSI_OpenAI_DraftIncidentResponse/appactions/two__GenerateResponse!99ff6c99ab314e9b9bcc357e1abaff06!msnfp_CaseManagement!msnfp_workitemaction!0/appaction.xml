@@ -1,0 +1,37 @@
+<appaction uniquename="two__GenerateResponse!99ff6c99ab314e9b9bcc357e1abaff06!msnfp_CaseManagement!msnfp_workitemaction!0">
+  <appmoduleid>
+    <uniquename>msnfp_CaseManagement</uniquename>
+  </appmoduleid>
+  <buttonlabeltext default="Draft Response">
+    <label description="Draft Response" languagecode="1033" />
+  </buttonlabeltext>
+  <buttonsequencepriority>5.5000000000</buttonsequencepriority>
+  <context>1</context>
+  <contextentity>
+    <logicalname>msnfp_workitemaction</logicalname>
+  </contextentity>
+  <contextvalue>msnfp_workitemaction</contextvalue>
+  <fonticon>$clientsvg:OpenEnrollment</fonticon>
+  <hidden>0</hidden>
+  <iscustomizable>1</iscustomizable>
+  <isdisabled>0</isdisabled>
+  <isgrouptitlehidden>0</isgrouptitlehidden>
+  <location>0</location>
+  <name>GenerateResponse!99ff6c99ab314e9b9bcc357e1abaff06</name>
+  <onclickeventjavascriptfunctionname>Two.Ribbon.IncidentRibbonRequest.RespondToIncident</onclickeventjavascriptfunctionname>
+  <onclickeventjavascriptparameters>[{"type":3}]</onclickeventjavascriptparameters>
+  <onclickeventjavascriptwebresourceid>
+    <webresourceid>b4d99f54-e10a-ee11-8f6e-0022480491bb</webresourceid>
+  </onclickeventjavascriptwebresourceid>
+  <onclickeventtype>2</onclickeventtype>
+  <origin>0</origin>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <type>0</type>
+  <visibilityformulacomponentlibraryid>
+    <name>two_casemanagementdefaultcommandlibrary_30419</name>
+  </visibilityformulacomponentlibraryid>
+  <visibilityformulacomponentname>0334a7b0a8784ed6a02f8bc8fe24db0e</visibilityformulacomponentname>
+  <visibilityformulafunctionname>Visible</visibilityformulafunctionname>
+  <visibilitytype>1</visibilitytype>
+</appaction>
